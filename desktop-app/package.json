@@ -1,0 +1,14 @@
+{
+  "name": "pet-meme-production-desk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "小红书宠物表情包本地收单与生产工具",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node src/app.js --self-test",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1"
+  },
+  "devDependencies": {
+    "postject": "^1.0.0-alpha.6"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "provider": "Alibaba Model Studio",
+  "endpoint_type": "native_dashscope_multimodal_generation",
+  "model": "qwen-image-3.0",
+  "server_generation_seconds": 7.51,
+  "request": {
+    "size": "1024*1024",
+    "n": 1,
+    "prompt_extend": false,
+    "watermark": false
+  },
+  "output": {
+    "source": "07-received-source.png",
+    "transparent": "07-received-transparent.png",
+    "mode": "RGBA",
+    "size": [1024, 1024],
+    "fully_transparent_pixels": 780590,
+    "partially_transparent_pixels": 4531,
+    "fully_opaque_pixels": 263455,
+    "alpha_extrema": [0, 255],
+    "nontransparent_bbox": [222, 115, 806, 906]
+  },
+  "qa": {
+    "identity": "conditional_pass",
+    "style": "fail",
+    "expression": "conditional_pass",
+    "anatomy": "fail_missing_forelimb",
+    "perspective_and_grounding": "conditional_pass",
+    "safe_margin": "fail",
+    "transparent_background": "pass",
+    "production_accepted": false
+  },
+  "secrets_in_report": false
+}

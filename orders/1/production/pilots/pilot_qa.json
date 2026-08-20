@@ -1,0 +1,21 @@
+{
+  "status": "pass_pending_user_review",
+  "automatic_checks": {
+    "canvas": "pass: 1024x1024",
+    "format": "pass: RGBA PNG",
+    "transparency": "pass: alpha range 0-255",
+    "safe_margin": "pass: minimum observed margin 127px across active pilots"
+  },
+  "manual_checks": {
+    "pet_identity": "pass: solid white coat, golden yellow-green eyes, pink ears/nose, round face and plump build retained",
+    "style_match": "pass: dry crayon grain, irregular dark outline, flat fill, wide large head, stubby body and sparse motion marks",
+    "anatomy": "pass: one cat, two ears, one tail, coherent visible paws in both images",
+    "expression": "pass: happy and aggrieved are clearly distinguishable",
+    "text_watermark_ip": "pass: no text, watermark, logo, copied markings, fixed props or reference-character identity"
+  },
+  "files": [
+    "01-happy-crayon-v1.png",
+    "03-aggrieved-crayon-v1.png"
+  ],
+  "next_gate": "user_style_and_identity_review"
+}

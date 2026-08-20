@@ -1,0 +1,75 @@
+{
+  "input_directory": "D:\\workspace\\pet_meme\\orders\\1",
+  "photo_count": 6,
+  "photos": [
+    {
+      "photo_id": "photo-01",
+      "filename": "微信图片_20260820210717_165_60.jpg",
+      "sha256": "1398f92fe53ebc175f9c41e8426c417ed43ddec0ed6893e65a3b1be35024ecdf",
+      "format": "JPEG",
+      "width": 759,
+      "height": 851,
+      "mode": "RGB",
+      "readable": true
+    },
+    {
+      "photo_id": "photo-02",
+      "filename": "微信图片_20260820210718_166_60.jpg",
+      "sha256": "6928c1649c8af1bdf87e205e94a8b04c164853e1203745af6d27f91c8d5a089a",
+      "format": "JPEG",
+      "width": 748,
+      "height": 877,
+      "mode": "RGB",
+      "readable": true
+    },
+    {
+      "photo_id": "photo-03",
+      "filename": "微信图片_20260820210719_167_60.jpg",
+      "sha256": "f5f4d2db4aa9a8a20d003d4bede4cc9bbd2e02bfe0e99d5ea1ea7bd1203cd4fe",
+      "format": "JPEG",
+      "width": 596,
+      "height": 535,
+      "mode": "RGB",
+      "readable": true
+    },
+    {
+      "photo_id": "photo-04",
+      "filename": "微信图片_20260820210719_168_60.jpg",
+      "sha256": "451e9ecb16aaf3dfab117d301b82cd219c5a82c82780011afd0a97e68bbe5296",
+      "format": "JPEG",
+      "width": 884,
+      "height": 1645,
+      "mode": "RGB",
+      "readable": true
+    },
+    {
+      "photo_id": "photo-05",
+      "filename": "微信图片_20260820210720_169_60.jpg",
+      "sha256": "a32c6487cc7640de0bd792bcd41b3889eb0d7a0f070069a01a7ac9a87e63e2d9",
+      "format": "JPEG",
+      "width": 1179,
+      "height": 1290,
+      "mode": "RGB",
+      "readable": true
+    },
+    {
+      "photo_id": "photo-06",
+      "filename": "微信图片_20260820210721_170_60.jpg",
+      "sha256": "974b7dbbaf3742b4797741302143447fecc60364b9a0fcaf9b00602d3926c21c",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "readable": true
+    }
+  ],
+  "warnings": [],
+  "critical_failures": [],
+  "visual_review_required": [
+    "至少两张清晰正脸",
+    "至少一张侧脸",
+    "至少一张全身",
+    "无严重遮挡/过暗/过度美颜",
+    "单只宠物且主体明确"
+  ]
+}

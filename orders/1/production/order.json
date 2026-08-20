@@ -1,0 +1,31 @@
+{
+  "order_id": "1",
+  "pet_name": "奶酪",
+  "pet_type": "cat",
+  "reference_photos": [
+    "normalized-input/photo-01.jpg",
+    "normalized-input/photo-02.jpg",
+    "normalized-input/photo-03.jpg",
+    "normalized-input/photo-04.jpg",
+    "normalized-input/photo-05.jpg",
+    "normalized-input/photo-06.jpg"
+  ],
+  "must_keep_features": [
+    "整体纯白毛色",
+    "圆润偏胖的体型",
+    "黄绿色至金黄色眼睛",
+    "粉色鼻头和粉色内耳"
+  ],
+  "must_not_include": [],
+  "case_display_authorization": true,
+  "photo_rights_confirmation": true,
+  "output_directory": "D:/workspace/pet_meme/orders/1/production",
+  "auto_approve_sample": false,
+  "style_profile_id": "launch-warm-rounded-v1",
+  "source_order_table": "D:/workspace/pet_meme/outputs/01a01f1b-ccef-7783-b034-e17a696b4bd5/订单总表.xlsx",
+  "input_notes": [
+    "原订单目录共 8 张文件，其中 2 张 HEIC 因当前安全解码限制未纳入视觉证据。",
+    "6 张 JPG 已满足 5–8 张、至少两张清晰正脸/近正脸、一张侧脸和一张全身的要求。",
+    "照片中的粉蓝条纹衣服属于临时配饰；无明确要求时不带入成品。"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "order_id": "1",
+  "pet_name": "奶酪",
+  "identity_status": "approved",
+  "active_style_profile": "cheeky-crayon-cat-v1",
+  "style_reference": {
+    "path": "D:/workspace/pet_meme/reference/奶牛贱贱猫.jpg",
+    "role": "style_only",
+    "excluded": ["原角色身份", "黑色奶牛猫花纹", "固定构图与道具", "文字与水印"]
+  },
+  "speed_strategy": [
+    "身份卡与真实照片特征只解析一次",
+    "先生成一张可复用风格锚点",
+    "开心与委屈两张独立请求并行生成",
+    "统一纯蓝技术底并由本地脚本一次性转为透明 PNG 和 1024 方图"
+  ],
+  "anchor": {
+    "file": "../anchor/character-anchor-crayon-v1.png",
+    "source": "../anchor/character-anchor-crayon-v1-source.png",
+    "prompt_summary": "白猫奶酪身份锁定；仅提炼粗粝干蜡笔线、扁平色块、超大扁头、小短身、半眯金眼和大量留白；排除原角色花纹、IP、文字与水印。"
+  },
+  "pilots": [
+    {
+      "expression_id": "01",
+      "expression": "开心",
+      "file": "01-happy-crayon-v1.png",
+      "source": "01-happy-crayon-v1-source.png",
+      "prompt_summary": "半眯坏笑金眼、微张小嘴、单前爪随意挥动、少量动作线；无字、无道具。"
+    },
+    {
+      "expression_id": "03",
+      "expression": "委屈",
+      "file": "03-aggrieved-crayon-v1.png",
+      "source": "03-aggrieved-crayon-v1-source.png",
+      "prompt_summary": "耳朵向外压低、湿润下垂金眼、两前爪靠拢、少量泪滴和颤抖线；无字、无道具。"
+    }
+  ],
+  "superseded_pilots": ["01-happy.png", "03-aggrieved.png"],
+  "created_at": "2026-08-20"
+}

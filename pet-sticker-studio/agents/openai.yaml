@@ -1,0 +1,4 @@
+interface:
+  display_name: "宠物表情包工作室"
+  short_description: "将单只猫狗照片规范化制作成十张透明底中文表情包"
+  default_prompt: "使用 $pet-sticker-studio 检查宠物照片、建立身份卡并制作十张透明底表情包。"

@@ -1,0 +1,7 @@
+# Local credentials and provider configuration
+.env
+.env.*
+node_modules/
+.npm-cache/
+__pycache__/
+~$*.xlsx

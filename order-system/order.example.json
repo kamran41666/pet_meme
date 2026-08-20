@@ -1,0 +1,25 @@
+{
+  "order_id": "PS-20260820-001",
+  "pet_name": "团子",
+  "pet_type": "cat",
+  "reference_photos": [
+    "input/photo-01.jpg",
+    "input/photo-02.jpg",
+    "input/photo-03.jpg",
+    "input/photo-04.jpg",
+    "input/photo-05.jpg"
+  ],
+  "must_keep_features": [
+    "左眼上方浅色斑",
+    "深色尾尖"
+  ],
+  "must_not_include": [
+    "衣服",
+    "帽子"
+  ],
+  "case_display_authorization": false,
+  "photo_rights_confirmation": true,
+  "output_directory": "orders/PS-20260820-001",
+  "auto_approve_sample": false,
+  "style_profile_id": "launch-warm-rounded-v1"
+}

@@ -1,0 +1,126 @@
+{
+  "order_id": "1",
+  "pet_name": "奶酪",
+  "pet_type": "cat",
+  "source_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05", "photo-06"],
+  "features": {
+    "base_coat_color": {
+      "description": "全身以纯白色为主，六张可读照片中未见稳定的其他色块。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05", "photo-06"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "face_shape": {
+      "description": "正面脸型圆润，面颊较饱满；从侧面看鼻梁与口鼻部不过度突出。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "muzzle": {
+      "description": "口鼻部短而圆，鼻头小，白色胡须垫不形成明显异色块。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "eyes": {
+      "description": "双眼偏大、近杏仁形；虹膜在不同光线下呈黄绿色至金黄色，瞳孔深色。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-05"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "ears": {
+      "description": "两只直立三角耳较大，耳尖略圆，内耳为浅粉色并有稀疏白色耳毛。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "nose": {
+      "description": "鼻头为浅粉色、小型圆三角形，鼻翼边界柔和。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "facial_pattern": {
+      "description": "脸部整体白色，无稳定深色花纹；眼周、额头与口鼻需保持干净白色。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "body_pattern": {
+      "description": "可见躯干均为白色；衣服遮挡的部分没有证据支持添加任何花纹。",
+      "evidence_photo_ids": ["photo-02", "photo-04", "photo-05", "photo-06"],
+      "confidence": "medium",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "limb_pattern": {
+      "description": "四肢可见部分均为白色，爪部无明显异色袜套或斑点。",
+      "evidence_photo_ids": ["photo-02", "photo-04", "photo-05", "photo-06"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "tail_pattern": {
+      "description": "可见尾巴为白色，无异色尾尖。",
+      "evidence_photo_ids": ["photo-04", "photo-06"],
+      "confidence": "medium",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "left_right_asymmetry": {
+      "description": "六张可读照片中未观察到可靠、稳定的左右不对称毛色特征。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05", "photo-06"],
+      "confidence": "medium",
+      "persistence": "stable",
+      "must_preserve": false
+    },
+    "fur_length": {
+      "description": "短至中短毛，身体毛发蓬松柔软，脸部与耳缘轮廓清楚。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "body_build": {
+      "description": "躯干圆润宽厚、面颊饱满，整体视觉偏胖；生成时保持可爱圆润而非纤细修长。",
+      "evidence_photo_ids": ["photo-02", "photo-04", "photo-05", "photo-06"],
+      "confidence": "high",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "tail_shape": {
+      "description": "尾巴中等偏长、整体顺直并向末端收细。",
+      "evidence_photo_ids": ["photo-04", "photo-06"],
+      "confidence": "medium",
+      "persistence": "stable",
+      "must_preserve": true
+    },
+    "special_marks": {
+      "description": "未观察到可确认的痣、异色斑或缺口；不得凭空添加。",
+      "evidence_photo_ids": ["photo-01", "photo-02", "photo-03", "photo-04", "photo-05", "photo-06"],
+      "confidence": "medium",
+      "persistence": "stable",
+      "must_preserve": false
+    },
+    "temporary_accessories": {
+      "description": "部分照片穿粉色、浅蓝和白色条纹衣服；这是临时配饰，无明确要求时不保留。未见稳定项圈。",
+      "evidence_photo_ids": ["photo-04", "photo-05", "photo-06"],
+      "confidence": "high",
+      "persistence": "temporary",
+      "must_preserve": false
+    }
+  },
+  "uncertainties": [
+    "两张 HEIC 因当前解码器安全限制未能查看，未作为身份特征证据。",
+    "不同光线使虹膜从偏黄绿到偏金黄变化；生成时应保持暖黄绿色范围，不固定为纯黄或纯绿。",
+    "衣服遮挡部分躯干；现有证据未显示其他花纹，因此不得推测或添加。"
+  ],
+  "review_status": "approved"
+}

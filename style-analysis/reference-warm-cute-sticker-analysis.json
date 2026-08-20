@@ -1,0 +1,100 @@
+{
+  "profile_id": "reference-warm-cute-sticker",
+  "display_name": "参考样例暖萌贴纸",
+  "version": 1,
+  "source_image_ids": [
+    "style-01",
+    "style-02",
+    "style-03",
+    "style-04",
+    "style-05",
+    "style-06",
+    "style-07",
+    "style-08",
+    "style-09",
+    "style-10",
+    "style-11"
+  ],
+  "rights_confirmed": false,
+  "status": "draft",
+  "summary": "以实拍猫狗身份特征为基础的暖萌手绘贴纸：圆润大头、小体型、深色略带手绘感的轮廓、自然毛色的柔和铺色、夸张眼口与少量情绪符号；角色单独居中并保留大面积留白。",
+  "positive_requirements": [
+    "优先保留原宠物的脸部色块、额头纹路、耳色、眼色、口鼻颜色、胸腹色与尾巴花纹，允许简化毛发但不改变身份锚点",
+    "头部约占角色总高度的 48%–62%，身体缩短、四肢短圆，整体轮廓稳定且重心低",
+    "使用深炭黑或深暖灰手绘轮廓，线条中等偏粗、略有自然抖动，局部允许断续但主体边界必须清楚",
+    "毛色采用柔和半哑光铺色，保留轻微水彩、彩铅或粉蜡笔颗粒；明暗层次少而清楚",
+    "眼睛可适度放大并加入高光，但颜色和左右关键特征必须来自宠物；嘴、眉、耳势和姿态共同表达情绪",
+    "单个角色在正方形画布中居中，占画布约 68%–78%，四周保留 10%–14% 安全边距",
+    "用少量星光、爱心、问号、汗线、怒气、速度线或泪滴强化情绪，每张只使用与语义直接相关的元素",
+    "最终输出真实透明背景；可保留深色外轮廓，不从参考截图复制白底、平台覆盖文字或账号信息",
+    "中文文案在无字主体完成后单独叠加，采用圆润粗体、浅色字面配深暖色描边，置于上方或下方留白且不遮挡眼睛、口鼻和关键花纹"
+  ],
+  "negative_constraints": [
+    "不复制参考图中的具体角色设计、固定构图、服装、厨师帽、睡帽、杯子、餐具或其他道具组合",
+    "不保留或重绘平台水印、账号、视频字幕、ID、签名、品牌标志或来源标识",
+    "不把参考实拍照片中的服装、项圈和场景默认带入新宠物",
+    "不将粗粝黑白涂鸦变体与柔和铺色主风格混杂在同一套十张中",
+    "不统一改成巨型黑亮眼；无语、生气和晚安等表情允许半眯眼或闭眼，且仍需保持眼色线索和脸部花纹",
+    "不使用高饱和霓虹色、硬质 3D 渲染、照片级毛发、复杂背景、强投影或写实环境光",
+    "不镜像左右不对称花纹，不改变耳朵数量、尾巴形状或宠物物种结构",
+    "不出现多肢体、多耳、多尾、融合爪、漂浮部件、乱码或模型直接生成的汉字",
+    "不模仿任何具体品牌、影视游戏 IP、已知角色或在世艺术家的明确风格"
+  ],
+  "visual_parameters": {
+    "medium": "soft digital hand-drawn illustration with restrained watercolor/colored-pencil texture",
+    "shape_language": "round compact silhouette; large head, short torso and short rounded limbs",
+    "head_height_ratio": "0.48-0.62 of character height",
+    "linework": "deep charcoal or warm dark-gray, medium-thick, slightly organic, clean readable contour",
+    "palette": "pet-derived natural colors with muted warm rendering; pink, yellow, blue and green only as small emotional accents",
+    "saturation": "low-medium for fur; medium-high only for tiny accents",
+    "lighting": "soft diffuse frontal light, minimal modeling, no hard cast shadow",
+    "shadow": "very light contact shadow only when needed; transparent final background",
+    "highlight": "small controlled eye highlights; restrained fur highlights",
+    "detail_density": "low-medium; preserve identification patterns before decorative detail",
+    "composition": "single isolated character centered in a square frame",
+    "subject_occupancy_percent": "68-78",
+    "background": "transparent",
+    "safe_margin_percent": 12,
+    "sticker_edge": "dark readable contour; no mandatory white halo",
+    "expression_exaggeration": "medium-high through eyes, mouth, brows, ears, pose and sparse emotion marks",
+    "captioning": "separate deterministic Chinese overlay; rounded bold glyphs, light fill, dark warm outline, top or bottom safe area"
+  },
+  "evidence": [
+    {
+      "observation": "多数实拍与成品对照案例均将猫狗简化为大头、短身、短圆四肢，同时保留毛色和脸部花纹",
+      "image_ids": ["style-01", "style-03", "style-04", "style-05", "style-06", "style-07", "style-08", "style-09", "style-10", "style-11"],
+      "confidence": "high"
+    },
+    {
+      "observation": "主系列使用深色手绘轮廓与柔和自然毛色，只有爱心、星光、问号、泪滴等情绪符号采用较鲜明强调色",
+      "image_ids": ["style-01", "style-04", "style-05", "style-06", "style-07", "style-08", "style-09", "style-10", "style-11"],
+      "confidence": "high"
+    },
+    {
+      "observation": "表情主要通过眼睛尺度与开合、嘴形、眉眼、耳势和动作放大，背景保持白色或空白，角色之间留白充足",
+      "image_ids": ["style-01", "style-02", "style-04", "style-05", "style-06", "style-07", "style-08", "style-09", "style-10", "style-11"],
+      "confidence": "high"
+    },
+    {
+      "observation": "style-02 为更粗糙、低填色、黑白对比更强的极简涂鸦变体，仅支持手绘轮廓与强动作符号这些共有规律，不作为主档案的铺色依据",
+      "image_ids": ["style-02"],
+      "confidence": "high"
+    },
+    {
+      "observation": "参考文件未提供可靠的成品中文排版范例；可见文字主要是平台水印或视频覆盖字幕，因此文字规范沿用独立脚本排版而不学习其样式",
+      "image_ids": ["style-01", "style-02", "style-03", "style-04", "style-05", "style-06", "style-07", "style-08", "style-09", "style-10", "style-11"],
+      "confidence": "high"
+    },
+    {
+      "observation": "style-01 与 style-03 的文件哈希完全相同，属于重复素材，不作为额外独立证据计数",
+      "image_ids": ["style-01", "style-03"],
+      "confidence": "high"
+    }
+  ],
+  "prohibited_references": [],
+  "review_notes": [
+    "当前保存为 draft，因为尚未确认全部参考图片的使用权与来源授权。",
+    "正式使用前应确认权利，将 rights_confirmed 改为 true、status 改为 approved，并以新版本保存。",
+    "如果希望保留 style-02 的粗粝涂鸦质感，应另建独立档案，避免同一十张表情中风格漂移。"
+  ]
+}

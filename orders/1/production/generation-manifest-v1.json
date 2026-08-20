@@ -1,0 +1,31 @@
+{
+  "order_id": "1",
+  "pet_name": "奶酪",
+  "stage": "complete_no_caption_model_set",
+  "identity_card": "identity/pet_identity.json",
+  "identity_status": "approved",
+  "style_profile": "../../../pet-sticker-studio/references/style-profiles/cheeky-crayon-cat-v1.json",
+  "style_reference": {
+    "path": "../../../reference/奶牛贱贱猫.jpg",
+    "role": "style_technique_only",
+    "excluded": ["原奶牛猫角色身份", "黑色脸部花纹", "固定姿势与道具", "对勾叉号", "平台水印与账号"]
+  },
+  "anchor": "anchor/character-anchor-crayon-v1.png",
+  "generation_mode": "built_in_imagegen",
+  "background_pipeline": "uniform #0000FF technical background -> remove_chroma_background.ps1 -> RGBA 1024x1024",
+  "items": [
+    {"id": "01", "key": "happy", "caption": "开心", "file": "no-caption/01-happy.png", "prompt_summary": "半眯开心眼、微张笑嘴、单前爪挥动", "attempts": 1, "qa": "pass"},
+    {"id": "02", "key": "laugh", "caption": "爆笑", "file": "no-caption/02-laugh.png", "source": "sources/chroma/02-laugh-source.png", "prompt_summary": "闭眼张嘴爆笑、身体后仰、双爪自然抬起", "attempts": 1, "qa": "pass"},
+    {"id": "03", "key": "aggrieved", "caption": "委屈", "file": "no-caption/03-aggrieved.png", "prompt_summary": "耳朵向外压低、湿润下垂眼、前爪靠拢", "attempts": 1, "qa": "pass"},
+    {"id": "04", "key": "angry", "caption": "生气", "file": "no-caption/04-angry.png", "source": "sources/chroma/04-angry-source.png", "prompt_summary": "收紧眉眼、低重心站姿、少量怒气线", "attempts": 1, "qa": "pass"},
+    {"id": "05", "key": "shocked", "caption": "震惊", "file": "no-caption/05-shocked.png", "source": "sources/chroma/05-shocked-source.png", "prompt_summary": "圆睁金眼、O 形小嘴、前爪缩近胸前", "attempts": 1, "qa": "pass"},
+    {"id": "06", "key": "speechless", "caption": "无语", "file": "no-caption/06-speechless.png", "source": "sources/chroma/06-speechless-source.png", "prompt_summary": "极度半眯眼、平直小嘴、静止停顿感", "attempts": 1, "qa": "pass"},
+    {"id": "07", "key": "received", "caption": "收到", "file": "no-caption/07-received.png", "source": "sources/chroma/07-received-source.png", "prompt_summary": "轻微点头、单爪确认、克制微笑", "attempts": 1, "qa": "pass"},
+    {"id": "08", "key": "thanks", "caption": "谢谢", "file": "no-caption/08-thanks.png", "source": "sources/chroma/08-thanks-source.png", "prompt_summary": "双爪合拢、温和致意、少量星光", "attempts": 1, "qa": "pass"},
+    {"id": "09", "key": "love-you", "caption": "爱你", "file": "no-caption/09-love-you.png", "source": "sources/chroma/09-love-you-source.png", "prompt_summary": "双爪抱简单粉色爱心、亲昵微笑", "attempts": 1, "qa": "pass"},
+    {"id": "10", "key": "good-night", "caption": "晚安", "file": "no-caption/10-good-night.png", "source": "sources/chroma/10-good-night-source.png", "prompt_summary": "闭眼蜷卧、尾巴环身、少量睡眠星光", "attempts": 1, "qa": "pass"}
+  ],
+  "automatic_qa": "qa/no-caption-v1/qa_report.json",
+  "contact_sheet": "preview/no-caption-contact-sheet-v1.png",
+  "created_at": "2026-08-20"
+}

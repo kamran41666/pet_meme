@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "automatic_scope": "文件规则；仍需人工检查身份、结构、文字内容、风格、隐私授权与 IP 风险",
+  "failures": [],
+  "files": [
+    {
+      "filename": "01-happy.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "02-laugh.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "03-aggrieved.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "04-angry.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "05-shocked.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "06-speechless.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "07-received.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "08-thanks.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "09-love-you.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "filename": "10-good-night.png",
+      "readable": true,
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

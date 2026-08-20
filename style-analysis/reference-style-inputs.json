@@ -1,0 +1,121 @@
+{
+  "image_count": 11,
+  "images": [
+    {
+      "style_image_id": "style-01",
+      "filename": "9f06452139c0c9de80ff4cd495d48ffc.jpg",
+      "sha256": "a216c2fdb7315bcb4c35d158e2daa12fb665ed8e91f0ef4ec701a2cdb7d129ac",
+      "readable": true,
+      "format": "JPEG",
+      "width": 1170,
+      "height": 1650,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-02",
+      "filename": "奶牛贱贱猫.jpg",
+      "sha256": "805757de6598742c36c47ca89315cac19c34b12404275cda7ae47d38487a0a39",
+      "readable": true,
+      "format": "JPEG",
+      "width": 1242,
+      "height": 1660,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-03",
+      "filename": "微信图片_20260820205121_156_60.jpg",
+      "sha256": "a216c2fdb7315bcb4c35d158e2daa12fb665ed8e91f0ef4ec701a2cdb7d129ac",
+      "readable": true,
+      "format": "JPEG",
+      "width": 1170,
+      "height": 1650,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-04",
+      "filename": "微信图片_20260820205121_157_60.jpg",
+      "sha256": "a2e8ee9d958b85a123712fbc9d6b718ed2a1bda3f56071c96aba98096239d82c",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-05",
+      "filename": "微信图片_20260820205121_158_60.jpg",
+      "sha256": "93e089db4663cae99bb63bfdfefc31d433599c39e70cb49971af0cf0de1669bf",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-06",
+      "filename": "微信图片_20260820205121_159_60.jpg",
+      "sha256": "88944c25633cbaf18f0bcaa936a422cdf2b480b27ed5c87de1db01b3d83ff3cc",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-07",
+      "filename": "微信图片_20260820205121_160_60.jpg",
+      "sha256": "2546fe4c4df16ecadca6a7e06f3deeb1d28600903cadf73db2c9e86e62c1af1d",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-08",
+      "filename": "微信图片_20260820205121_161_60.jpg",
+      "sha256": "74d20c0f4de2b5306fa67fd5506ca796bf074b1e132348e278a8f6cdbdfbb1a0",
+      "readable": true,
+      "format": "JPEG",
+      "width": 1662,
+      "height": 2216,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-09",
+      "filename": "微信图片_20260820205121_162_60.jpg",
+      "sha256": "1a558d736bc1b1a083b92bcf2fbd18dc709baddadae8e8803243df8ebdf49bd4",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-10",
+      "filename": "微信图片_20260820205121_163_60.jpg",
+      "sha256": "494201790f4d99b806aa7ebd49e45f85077f25d68d1b8e4d4d92e017964a976f",
+      "readable": true,
+      "format": "JPEG",
+      "width": 1620,
+      "height": 2160,
+      "mode": "RGB"
+    },
+    {
+      "style_image_id": "style-11",
+      "filename": "微信图片_20260820205121_164_60.jpg",
+      "sha256": "e944a0647d0b83276e35cde614dc5100e56d8b9342e66fb059570a7b1903f766",
+      "readable": true,
+      "format": "JPEG",
+      "width": 2160,
+      "height": 2880,
+      "mode": "RGB"
+    }
+  ],
+  "critical_failures": [],
+  "human_review_required": [
+    "确认素材权利和来源",
+    "排除品牌、IP、人物肖像与在世艺术家模仿目标",
+    "总结多图共有规律而非复制具体作品"
+  ]
+}

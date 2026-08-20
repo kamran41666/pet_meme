@@ -1,0 +1,11 @@
+{
+  "main": "src/app.js",
+  "output": "build/pet-meme-studio.blob",
+  "disableExperimentalSEAWarning": true,
+  "useSnapshot": false,
+  "useCodeCache": false,
+  "execArgvExtension": "none",
+  "assets": {
+    "ui.html": "src/ui.html"
+  }
+}

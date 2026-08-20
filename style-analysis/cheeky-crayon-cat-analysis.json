@@ -1,0 +1,76 @@
+{
+  "profile_id": "cheeky-crayon-cat",
+  "display_name": "贱萌蜡笔涂鸦猫",
+  "version": 1,
+  "source_image_ids": [
+    "奶牛贱贱猫-panel-01-style-only",
+    "奶牛贱贱猫-panel-02-style-only",
+    "奶牛贱贱猫-panel-03-style-only",
+    "奶牛贱贱猫-panel-04-style-only",
+    "奶牛贱贱猫-panel-05-style-only",
+    "奶牛贱贱猫-panel-06-style-only"
+  ],
+  "rights_confirmed": false,
+  "status": "draft",
+  "summary": "以粗粝蜡笔线、扁平低细节色块、超大扁头与短小身体为核心的贱萌猫咪表情包风格；强调半眯眼、笨拙动作、稀疏动态线和大量留白，仅学习视觉规律，不复用参考角色的花纹、构图、道具或水印。",
+  "positive_requirements": [
+    "使用黑色或深灰色干蜡笔质感轮廓，边缘允许自然颗粒和轻微抖动，但主体轮廓必须闭合清晰",
+    "角色采用超大、偏宽偏扁的头部与极短小身体，四肢简化为短圆块面，整体低重心",
+    "铺色以扁平哑光色块为主，保留纸面或蜡笔颗粒感，基本不使用写实毛发、渐变光影或体积渲染",
+    "眼睛采用简洁的暖芥末金或宠物真实眼色派生色块，通过半眯、下垂、放大等方式表达情绪",
+    "嘴形、耳势、短肢动作与少量手绘动作线共同形成笨拙、贱萌、略带无语感的喜剧节奏",
+    "单只角色居中，占正方形画布约 62%–72%，四周保留至少 14% 留白，最终输出真实透明背景",
+    "宠物身份特征优先于风格参考：保留真实毛色、眼色、耳色、鼻色、体型和稳定花纹",
+    "文案在无字主体确认后由脚本单独叠加，不要求图像模型直接生成中文"
+  ],
+  "negative_constraints": [
+    "不复制参考角色的奶牛猫黑色分区、左右脸设计、固定表情、固定动作或具体构图",
+    "不复制参考中的对勾、叉号、纸张、道具、账号、平台水印、签名或任何文字",
+    "不把白色宠物改成黑白花猫，不添加现实照片中不存在的稳定毛色或不对称标记",
+    "不使用精致数字厚涂、照片级毛发、3D 渲染、强光影、复杂背景或高光塑料质感",
+    "不出现多肢、多耳、多尾、融合爪、漂浮部件、乱码、品牌、IP 或已知角色元素",
+    "不模仿任何具体在世艺术家，不将参考图片当作宠物身份来源"
+  ],
+  "visual_parameters": {
+    "medium": "dry crayon / wax-pencil doodle with visible grain",
+    "shape_language": "very wide oversized head, tiny stubby plump body, simple rounded blocks",
+    "head_height_ratio": "0.62-0.76 of character height",
+    "linework": "irregular fuzzy charcoal-black crayon outline, medium-thick, closed readable silhouette",
+    "palette": "pet-derived flat off-white and pale pink with mustard-gold eyes; accent colors sparse",
+    "saturation": "low for body, medium for eyes and tiny emotion marks",
+    "lighting": "flat, nearly unlit graphic treatment",
+    "shadow": "none",
+    "highlight": "minimal white eye dot only when needed",
+    "detail_density": "low",
+    "composition": "single isolated character with generous negative space and sparse motion strokes",
+    "subject_occupancy_percent": "62-72",
+    "background": "transparent",
+    "safe_margin_percent": 14,
+    "sticker_edge": "dark crayon outline without mandatory white halo",
+    "expression_exaggeration": "high through eye shape, ear angle, tiny mouth and awkward stubby pose",
+    "captioning": "separate deterministic Chinese overlay after no-caption approval"
+  },
+  "evidence": [
+    {
+      "observation": "参考图持续使用粗颗粒黑色轮廓、扁平黑白色块、极简短肢和几乎无光影的蜡笔涂鸦处理。",
+      "image_ids": ["奶牛贱贱猫-panel-01-style-only", "奶牛贱贱猫-panel-02-style-only", "奶牛贱贱猫-panel-03-style-only", "奶牛贱贱猫-panel-04-style-only"],
+      "confidence": "high"
+    },
+    {
+      "observation": "角色普遍以大而扁的头部、极小身体、半眯黄眼和稀疏动作线形成贱萌喜剧节奏，并保留大面积空白。",
+      "image_ids": ["奶牛贱贱猫-panel-01-style-only", "奶牛贱贱猫-panel-02-style-only", "奶牛贱贱猫-panel-03-style-only", "奶牛贱贱猫-panel-04-style-only", "奶牛贱贱猫-panel-05-style-only", "奶牛贱贱猫-panel-06-style-only"],
+      "confidence": "high"
+    },
+    {
+      "observation": "参考图包含具体奶牛猫花纹、固定道具、对勾叉号及平台水印，这些均被列为禁止复用内容。",
+      "image_ids": ["奶牛贱贱猫-panel-03-style-only", "奶牛贱贱猫-panel-05-style-only", "奶牛贱贱猫-panel-06-style-only"],
+      "confidence": "high"
+    }
+  ],
+  "prohibited_references": [],
+  "review_notes": [
+    "当前为 draft：参考图片的使用权与来源授权尚未记录为已确认。",
+    "实际生成只提炼媒介、线条、形状、配色与构图规律，并使用订单宠物奶酪的身份特征。",
+    "用户确认两张试作后，再将本档案升级为 approved 新版本并扩展剩余表情。"
+  ]
+}
