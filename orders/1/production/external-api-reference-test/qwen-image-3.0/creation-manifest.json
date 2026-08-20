@@ -1,0 +1,50 @@
+{
+  "order_id": "1",
+  "pet_name": "奶酪",
+  "expression": {"id": "01", "key": "happy", "caption": "开心"},
+  "provider": "Alibaba Model Studio",
+  "model": "qwen-image-3.0",
+  "mode": "image_to_image_multi_reference",
+  "reference_images": [
+    {"path": "../../normalized-input/photo-02.jpg", "role": "pet_identity_face"},
+    {"path": "../../normalized-input/photo-04.jpg", "role": "pet_identity_body", "excluded": ["衣服", "室内背景"]},
+    {"path": "../../../../../reference/奶牛贱贱猫.jpg", "role": "style_technique_only", "excluded": ["原角色身份", "黑色花纹", "原动作与道具", "文字与水印"]}
+  ],
+  "request": {
+    "reference_image_count": 3,
+    "size": "1024*1024",
+    "n": 1,
+    "prompt_extend": false,
+    "watermark": false,
+    "negative_prompt": true,
+    "attempts": 1,
+    "wall_seconds": 29.3
+  },
+  "artifacts": {
+    "source": "01-happy-source.png",
+    "transparent": "01-happy-transparent.png",
+    "no_caption": "no-caption/01-happy.png",
+    "final": "final/01-happy.png",
+    "prompt": "01-happy-prompt.txt",
+    "negative_prompt": "negative-prompt.txt"
+  },
+  "alpha": {
+    "extrema": [0, 255],
+    "corner_alpha": [0, 0, 0, 0],
+    "fully_transparent_pixels": 720280,
+    "partially_transparent_pixels": 9827,
+    "fully_opaque_pixels": 318469,
+    "nontransparent_bbox": [133, 90, 904, 908]
+  },
+  "manual_qa": {
+    "identity": 37,
+    "structure": 20,
+    "caption": 12,
+    "style": 13,
+    "rights_and_ip": 10,
+    "total": 92,
+    "direct_failures": [],
+    "status": "pilot_pass"
+  },
+  "secrets_in_artifacts": false
+}
