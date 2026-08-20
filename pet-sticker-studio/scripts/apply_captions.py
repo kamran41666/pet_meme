@@ -22,20 +22,22 @@ def find_font(explicit: Path | None) -> Path:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="为固定十张无字 PNG 添加中文文案，不覆盖输入。")
+    parser = argparse.ArgumentParser(description="为固定十张或单张试作无字 PNG 添加中文文案，不覆盖输入。")
     parser.add_argument("input_dir", type=Path)
     parser.add_argument("output_dir", type=Path)
     parser.add_argument("--font", type=Path, help="中文字体 .ttf/.ttc 路径")
     parser.add_argument("--position", choices=["top", "bottom"], default="bottom")
     parser.add_argument("--font-ratio", type=float, default=0.115, help="字号相对画布宽度，默认 0.115")
     parser.add_argument("--stroke-ratio", type=float, default=0.009, help="描边相对画布宽度，默认 0.009")
+    parser.add_argument("--only", choices=[key for _, key, _ in EXPRESSIONS], help="只处理指定表情键，用于单张试作")
     args = parser.parse_args()
     if not args.input_dir.is_dir(): fail(f"输入目录不存在：{args.input_dir}")
     if args.output_dir.exists() and any(args.output_dir.iterdir()): fail(f"输出目录非空，拒绝覆盖：{args.output_dir}")
     font_path = find_font(args.font)
     Image, ImageDraw, ImageFont = require_pillow()
     inputs = []
-    for seq, key, caption in EXPRESSIONS:
+    selected = [item for item in EXPRESSIONS if not args.only or item[1] == args.only]
+    for seq, key, caption in selected:
         path = args.input_dir / f"{seq}-{key}.png"
         if not path.is_file(): fail(f"缺少无字图：{path.name}")
         inputs.append((path, caption))

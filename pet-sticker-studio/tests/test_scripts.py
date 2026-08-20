@@ -52,6 +52,12 @@ class ScriptBehaviorTests(unittest.TestCase):
         with Image.open(final / "01-happy.png") as im: self.assertEqual(im.mode, "RGBA"); self.assertEqual(im.getchannel("A").getextrema()[0], 0)
         run("apply_captions.py", no_caption, final, expect=2)
 
+        single_input = self.base / "single-input"; single_input.mkdir()
+        sticker(single_input / "01-happy.png")
+        single_output = self.base / "single-output"
+        run("apply_captions.py", single_input, single_output, "--only", "happy")
+        self.assertEqual([path.name for path in single_output.glob("*.png")], ["01-happy.png"])
+
         qa = self.base / "qa"; run("validate_exports.py", final, "--report-dir", qa)
         self.assertTrue(json.loads((qa / "qa_report.json").read_text(encoding="utf-8"))["passed"])
         bad = self.base / "bad"; bad.mkdir()
